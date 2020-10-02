@@ -1,0 +1,17 @@
+.table-wrapper{
+    height: 380px;
+}
+
+thead tr{
+    cursor:pointer
+}
+.fa-arrow-up{
+    font-size: 12px;
+    color:#00bc8c;
+    &.active{
+        transform: rotate(180deg);
+        font-size: 10px;
+        color:#e74c3c;
+        font-size: 12px;
+    }
+}

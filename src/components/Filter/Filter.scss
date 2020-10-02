@@ -1,0 +1,11 @@
+.input-group__wrapper{
+    flex: 0 1 60%;
+    .search-input{
+        color:#fff;
+        border:none;
+        &:focus{
+            color:#fff;
+            border:none;
+        }
+    }
+}
