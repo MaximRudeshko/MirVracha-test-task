@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Loader from '../Loader'
-
 
 import './UserDetails.scss'
 
@@ -28,7 +26,6 @@ export default class UserDetails extends Component{
     
 
     render(){
-        console.log(this.props.selectedRow)
         const {item} = this.state
         if(!this.state.item){
             return (

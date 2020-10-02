@@ -1,6 +1,6 @@
 export default class ApiService {
 
-    _apiBase = 'http://www.filltexst.com/?rows=32&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
+    _apiBase = 'http://www.filltext.com/?rows=32&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
 
     getResources = async (url) => {
         const res = await fetch(url);

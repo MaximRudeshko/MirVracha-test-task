@@ -1,7 +1,5 @@
-import React, { useState, useEffect, Component } from 'react';
-import _ from 'lodash'
+import React from 'react';
 import ReactPaginate from 'react-paginate';
-import ApiService from '../../services/apiService';
 import Loader from '../Loader';
 import Table  from '../Table';
 import ErrorBoundry from '../ErrorBoundry';
@@ -11,7 +9,7 @@ import './UsersList.scss'
 
 
 
-const UsersList = ({onRowSelect, search, currentPage, onPageChange, loading, view, onSort, sortType, sortField, data, pageSize, pageCount}) => {
+const UsersList = ({onRowSelect, currentPage, onPageChange, loading, view, onSort, sortType, sortField, data, pageSize, pageCount}) => {
        
 
   return(
